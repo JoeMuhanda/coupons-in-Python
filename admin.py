@@ -1,6 +1,5 @@
-
-
-
+from django.contrib import admin
+from .models import Coupons
 # Register your models here.
 @admin.register(Coupons)
 class CouponAdmin(admin.ModelAdmin):
